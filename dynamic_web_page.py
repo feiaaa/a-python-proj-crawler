@@ -5,6 +5,11 @@ from selenium.webdriver import Chrome # import package web browser
 from selenium.webdriver.common.keys import Keys # 点击操作
 import time # 自带的不用装 
 
+# acsii,unicode转码相关
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 # excel 操作相关
 import xlrd #读
 from xlutils.copy import copy
@@ -38,14 +43,14 @@ def read_excel():
     
     r=1;
     while r<sheet1.nrows:
+    	word_alias=sheet1.cell(r,3).value
     	word=sheet1.cell(r,2).value
     	# w=eval("u'%s'"%word)
-    	# print(w)
     	list.insert(r,word)
     	r+=1
 
 
-
+# 仅展示功能，并没有什么用
 def write_excel():
     f = xlwt.Workbook() #创建工作簿
 
@@ -82,47 +87,57 @@ def write_excel():
     f.save('demo1.xlsx') #保存文件
 
 
-def update_excel():
-	rb = xlrd.open_workbook('hosp_copy.xls')    #打开weng.xls文件
+# 编辑单元格内容
+def update_excel(row,col,value):
+	rb = xlrd.open_workbook('hosp_copy.xls')    #打开xls文件
 	wb = copy(rb)                          #利用xlutils.copy下的copy函数复制
 	ws = wb.get_sheet(0)                   #获取表单0
-	ws.write(10,5 , 'changed!')             #改变（10,5）的值
-	ws.write(8,9,label = u'好的')           #增加（10,0）的值
+	# ws.write(10,5 , 'changed!')             #改变（10,5）的值
+	ws.write(row,col,label = u'%s'%value)           #增加（10,0）的值
 	wb.save('hosp_copy.xls')
 
 
 if __name__ == '__main__':
     read_excel()
-    write_excel()
-    update_excel()
+    # write_excel()
 
+# 百度百科查找 todo://
+# def find_in_baike():
 
-
-# hospList=['中国人民解放军联勤保障部队第九四四医院','北京市积水潭医院']
 
 # create browser
-# web=Chrome();
-# web.get('https://baike.baidu.com')
+web=Chrome();
+web.get('https://baike.baidu.com')
 
 
-# for index,i in enumerate(list):
+for index,i in enumerate(list):
+	
 
-# 	time.sleep(2)
-# 	# 查找input和回车
-# 	web.find_element_by_xpath('//*[@id="query"]').send_keys("%s"%i,Keys.ENTER);
-# 	if(web.current_url.find('item')>0):
-# 		# 如果存在
-# 		a=web.find_element_by_class_name("basic-info").find_elements_by_class_name('basicInfo-item')
-# 		json=" "
-# 		for index,item in enumerate(a):
-# 		# 对字符的处理
-# 			if index %2==0:
-# 				print (item.text+':'+a[index+1].text)
-
-# 				index+=1
-# 	else:
-# 		# 如果没有
-# 		print (eval("u'%s'"%i)+ 'is not found; ')
-# 	web.find_element_by_xpath('//*[@id="query"]').clear() # 清除输入框
-# web.quit()
+	time.sleep(2)
+	# 查找input和回车
+	web.find_element_by_xpath('//*[@id="query"]').send_keys("%s"%i,Keys.ENTER);
+	if(web.current_url.find('item')>0):
+		# 如果存在
+		a=web.find_element_by_class_name("basic-info").find_elements_by_class_name('basicInfo-item')
+		json=" "
+		for iindex,item in enumerate(a):
+		# 对字符的处理
+			if iindex %2==0:
+				print (item.text+':'+a[iindex+1].text)
+				# python 没有switch 使用 if-else多语句
+				if item.text=='医院等级':
+					print(index+1,5,)
+					update_excel(index+1,5,a[iindex+1].text)
+				elif item.text=='地理位置' or item.text=='医院地址':
+					update_excel(index+1,4,a[iindex+1].text)
+				elif item.text=='医保定点':
+					update_excel(index+1,7,'医保定点')
+				elif item.text=='经营性质':
+					update_excel(index+1,6,a[iindex+1].text)
+				iindex+=1
+	else:
+		# 如果没有
+		print (eval("u'%s'"%i)+ ' is not found; ')
+	web.find_element_by_xpath('//*[@id="query"]').clear() # 清除输入框
+web.quit()
 
