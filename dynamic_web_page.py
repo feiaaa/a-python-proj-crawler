@@ -5,7 +5,12 @@ from selenium.webdriver import Chrome # import package web browser
 from selenium.webdriver.common.keys import Keys # 点击操作
 import time # 自带的不用装 
 
-import xlrd
+# excel 操作相关
+import xlrd #读
+from xlutils.copy import copy
+import xlwt #写
+
+list=[] # 医院列表
 def read_excel():
     # 打开文件
     workbook = xlrd.open_workbook(r'hosp.xls')
@@ -30,44 +35,94 @@ def read_excel():
     # print 'type',sheet1.cell(1,3).ctype
 
     # 实际操作
-    list=[] # 医院列表
-    r=0;
+    
+    r=1;
     while r<sheet1.nrows:
-    	print r
     	word=sheet1.cell(r,2).value
     	# w=eval("u'%s'"%word)
     	# print(w)
     	list.insert(r,word)
     	r+=1
-    print '40',list
+
+
+
+def write_excel():
+    f = xlwt.Workbook() #创建工作簿
+
+    '''
+    创建第一个sheet:
+        sheet1
+    '''
+    sheet1 = f.add_sheet(u'sheet1',cell_overwrite_ok=True) #创建sheet
+    row0 = [u'业务',u'状态',u'北京',u'上海',u'广州',u'深圳',u'状态小计',u'合计1']
+    column0 = [u'机票',u'船票',u'火车票',u'汽车票',u'其它']
+    status = [u'预订',u'出票',u'退票',u'业务小计']
+
+    #生成第一行
+    for i in range(0,len(row0)):
+        sheet1.write(0,i,row0[i])
+
+    #生成第一列和最后一列(合并4行)
+    i, j = 1, 0
+    while i < 4*len(column0) and j < len(column0):
+        sheet1.write_merge(i,i+3,0,0,column0[j]) #第一列
+        sheet1.write_merge(i,i+3,7,7) #最后一列"合计"
+        i += 4
+        j += 1
+
+    sheet1.write_merge(21,21,0,1,u'合计')
+
+    #生成第二列
+    i = 0
+    while i < 4*len(column0):
+        for j in range(0,len(status)):
+            sheet1.write(j+i+1,1,status[j])
+        i += 4
+
+    f.save('demo1.xlsx') #保存文件
+
+
+def update_excel():
+	rb = xlrd.open_workbook('hosp_copy.xls')    #打开weng.xls文件
+	wb = copy(rb)                          #利用xlutils.copy下的copy函数复制
+	ws = wb.get_sheet(0)                   #获取表单0
+	ws.write(10,5 , 'changed!')             #改变（10,5）的值
+	ws.write(8,9,label = u'好的')           #增加（10,0）的值
+	wb.save('hosp_copy.xls')
+
+
 if __name__ == '__main__':
     read_excel()
+    write_excel()
+    update_excel()
 
 
 
 # hospList=['中国人民解放军联勤保障部队第九四四医院','北京市积水潭医院']
 
-# # create browser
+# create browser
 # web=Chrome();
 # web.get('https://baike.baidu.com')
-# # print(web.page_source);
 
-# time.sleep(1)
-# # 查找input和回车
-# web.find_element_by_xpath('//*[@id="query"]').send_keys(u'北京市积水潭医院',Keys.ENTER);
 
-# if(web.current_url.find('item')>0):
-# 	# 如果存在
-# 	a=web.find_element_by_class_name("basic-info").find_elements_by_class_name('basicInfo-item')
-# 	json=" "
-# 	for index,item in enumerate(a):
-# 	# 对字符的处理
-# 		if index %2==0:
-# 			print (item.text+':'+a[index+1].text)
-# 			index+=1
-# else:
-# 	# 如果没有
-# 	print('找不到')
+# for index,i in enumerate(list):
 
+# 	time.sleep(2)
+# 	# 查找input和回车
+# 	web.find_element_by_xpath('//*[@id="query"]').send_keys("%s"%i,Keys.ENTER);
+# 	if(web.current_url.find('item')>0):
+# 		# 如果存在
+# 		a=web.find_element_by_class_name("basic-info").find_elements_by_class_name('basicInfo-item')
+# 		json=" "
+# 		for index,item in enumerate(a):
+# 		# 对字符的处理
+# 			if index %2==0:
+# 				print (item.text+':'+a[index+1].text)
+
+# 				index+=1
+# 	else:
+# 		# 如果没有
+# 		print (eval("u'%s'"%i)+ 'is not found; ')
+# 	web.find_element_by_xpath('//*[@id="query"]').clear() # 清除输入框
 # web.quit()
 
