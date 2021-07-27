@@ -89,7 +89,7 @@ def write_excel():
 
 # 编辑单元格内容
 def update_excel(row,col,value):
-	rb = xlrd.open_workbook('hosp_copy.xls')    #打开xls文件
+	rb = xlrd.open_workbook('hosp.xls')    #打开xls文件
 	wb = copy(rb)                          #利用xlutils.copy下的copy函数复制
 	ws = wb.get_sheet(0)                   #获取表单0
 	# ws.write(10,5 , 'changed!')             #改变（10,5）的值
