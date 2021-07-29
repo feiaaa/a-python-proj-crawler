@@ -2,6 +2,7 @@
 #-*-coding = utf-8 -*-
 from selenium.webdriver import Chrome # import package web browser
 # 需要下载Chrome.driver mac见 https://blog.csdn.net/qq_35982344/article/details/79608833
+# 因为浏览器升级导致的报错 见 https://blog.csdn.net/weixin_44318830/article/details/103339273
 from selenium.webdriver.common.keys import Keys # 点击操作
 import time # 自带的不用装 
 
@@ -43,11 +44,11 @@ def read_excel():
     
     r=1;
     while r<sheet1.nrows:
-    	word_alias=sheet1.cell(r,3).value
-    	word=sheet1.cell(r,2).value
-    	# w=eval("u'%s'"%word)
-    	list.insert(r,word)
-    	r+=1
+        word_alias=sheet1.cell(r,3).value #r3备用的
+        word=sheet1.cell(r,2).value #r2正常的
+        # w=eval("u'%s'"%word)
+        list.insert(r,word_alias) #这里
+        r+=1
 
 
 # 仅展示功能，并没有什么用
@@ -89,12 +90,12 @@ def write_excel():
 
 # 编辑单元格内容
 def update_excel(row,col,value):
-	rb = xlrd.open_workbook('hosp.xls')    #打开xls文件
-	wb = copy(rb)                          #利用xlutils.copy下的copy函数复制
-	ws = wb.get_sheet(0)                   #获取表单0
-	# ws.write(10,5 , 'changed!')             #改变（10,5）的值
-	ws.write(row,col,label = u'%s'%value)           #增加（10,0）的值
-	wb.save('hosp_copy.xls')
+    rb = xlrd.open_workbook('hosp.xls')    #打开xls文件
+    wb = copy(rb)                          #利用xlutils.copy下的copy函数复制
+    ws = wb.get_sheet(0)                   #获取表单0
+    # ws.write(10,5 , 'changed!')             #改变（10,5）的值
+    ws.write(row,col,label = u'%s'%value)           #增加（10,0）的值
+    wb.save('hosp.xls')
 
 
 if __name__ == '__main__':
@@ -105,39 +106,53 @@ if __name__ == '__main__':
 # def find_in_baike():
 
 
+
+
 # create browser
 web=Chrome();
 web.get('https://baike.baidu.com')
 
+# 判断元素是否存在
+def check_basic_info():
+    try:
+        web.find_element_by_class_name("basic-info");
+        return True;
+    except:
+        return False;
 
 for index,i in enumerate(list):
-	
+    
 
-	time.sleep(2)
-	# 查找input和回车
-	web.find_element_by_xpath('//*[@id="query"]').send_keys("%s"%i,Keys.ENTER);
-	if(web.current_url.find('item')>0):
-		# 如果存在
-		a=web.find_element_by_class_name("basic-info").find_elements_by_class_name('basicInfo-item')
-		json=" "
-		for iindex,item in enumerate(a):
-		# 对字符的处理
-			if iindex %2==0:
-				print (item.text+':'+a[iindex+1].text)
-				# python 没有switch 使用 if-else多语句
-				if item.text=='医院等级':
-					print(index+1,5,)
-					update_excel(index+1,5,a[iindex+1].text)
-				elif item.text=='地理位置' or item.text=='医院地址':
-					update_excel(index+1,4,a[iindex+1].text)
-				elif item.text=='医保定点':
-					update_excel(index+1,7,'医保定点')
-				elif item.text=='经营性质':
-					update_excel(index+1,6,a[iindex+1].text)
-				iindex+=1
-	else:
-		# 如果没有
-		print (eval("u'%s'"%i)+ ' is not found; ')
-	web.find_element_by_xpath('//*[@id="query"]').clear() # 清除输入框
+    time.sleep(2)
+    # 查找input和回车
+    if (i):
+        web.find_element_by_xpath('//*[@id="query"]').send_keys("%s"%i,Keys.ENTER);
+        if(web.current_url.find('item')>0):
+            # 如果存在        
+            if check_basic_info():
+                a=web.find_element_by_class_name("basic-info").find_elements_by_class_name('basicInfo-item')
+                json=" "
+                for iindex,item in enumerate(a):
+                # 对字符的处理
+                    if iindex %2==0:
+                        print (item.text+':'+a[iindex+1].text)
+                        # python 没有switch 使用 if-else多语句
+                        if item.text=='医院等级':
+                            print(index+1,5,)
+                            update_excel(index+1,5,a[iindex+1].text)
+                        elif item.text=='地理位置' or item.text=='医院地址':
+                            update_excel(index+1,4,a[iindex+1].text)
+                        elif item.text=='医保定点':
+                            update_excel(index+1,7,'医保定点')
+                        elif item.text=='经营性质':
+                            update_excel(index+1,6,a[iindex+1].text)
+                        iindex+=1
+            else:
+             print (eval("u'%s'"%i)+ ' is not found; ');
+
+        else:
+            # 如果没有
+            print (eval("u'%s'"%i)+ ' is not found; ')
+        web.find_element_by_xpath('//*[@id="query"]').clear() # 清除输入框
 web.quit()
 
