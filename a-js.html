@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<script type="text/javascript">
+		// 父类
+		function Father(name){this.name=name}
+		Father.prototype.say=function(){console.log(this.name)}
+		// 写一个对象，new自父类
+		var f=new Father('ff')
+		f.say()// ff
+		
+		// 写一个子类son，继承父类一切
+		function Son(name){Father.apply(this,[name])}
+		Son.prototype.constructor=Object.create(Father);//引用
+		Son.prototype.say=function(){
+			Father.prototype.say.call(this)
+		}//function(){console.log(this.name)}
+		var s=new Father('ss')
+		s.say()// ss
+		
+		// 改一下父类的，看看子怎么样
+		Father.prototype.say=function(){console.log(this.name+'==changed')}
+		s.say() // ss==changed // 改了
+		
+		// todo ://如果子类不想跟着被改
+		
+		
+		
+		
+	</script>
+	<body>
+	</body>
+</html>
