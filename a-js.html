@@ -27,7 +27,43 @@
 		
 		// todo ://如果子类不想跟着被改
 		
+		// 抽象类shape，实现类rect和circle
+		console.log('----shape')
+		function Shape(){};
+		Shape.prototype = {
+		    initialize:function(r){
+		        this.r = r;
+		        this.area.apply(this,arguments);
+				this.grith.apply(this,arguments);
+		    },
+		    //抽象方法是一个空方法，由派生类实现
+		    area:function(r){},
+			grith:function(r){},
+		};
+		function Circle(){};
+		Circle.prototype=Object.create(Shape.prototype);
 		
+		Circle.prototype.area=function(r){
+			console.log(r*r*3.14,'=area')
+		}
+		Circle.prototype.grith=function(r){
+			console.log(2*r*3.14,'=grith')
+		}
+		
+		function Rect(){};
+		Rect.prototype=Object.create(Shape.prototype);
+		
+		Rect.prototype.area=function(r){
+			console.log(r*r,'=area') // 50.24
+		}
+		Rect.prototype.grith=function(r){
+			console.log(r*4,'=grith') // 25.12
+		}
+		
+		var circle1 = new Circle();
+		circle1.initialize(4); // 16
+		var rect1 = new Rect();
+		rect1.initialize(4); // 16
 		
 		
 	</script>
