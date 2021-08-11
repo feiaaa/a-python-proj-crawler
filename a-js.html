@@ -11,6 +11,7 @@
 		// 写一个对象，new自父类
 		var f=new Father('ff')
 		f.say()// ff
+		Father.say2=function(){console.log(this.name)};
 		
 		// 写一个子类son，继承父类一切
 		function Son(name){Father.apply(this,[name])}
@@ -20,6 +21,7 @@
 		}//function(){console.log(this.name)}
 		var s=new Father('ss')
 		s.say()// ss
+		s.say2()
 		
 		// 改一下父类的，看看子怎么样
 		Father.prototype.say=function(){console.log(this.name+'==changed')}
@@ -37,8 +39,8 @@
 				this.grith.apply(this,arguments);
 		    },
 		    //抽象方法是一个空方法，由派生类实现
-		    area:function(r){},
-			grith:function(r){},
+		    area:function(){},
+			grith:function(){},
 		};
 		function Circle(){};
 		Circle.prototype=Object.create(Shape.prototype);
