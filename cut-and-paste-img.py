@@ -19,7 +19,7 @@ IMAGES_PATH = r'outs/' # 图片集地址
 IMAGES_FORMAT = ['.png', '.PNG'] # 图片格式
 IMAGE_ROW = 10 # 图片间隔，也就是合并成一张图后，一共有几行
 IMAGE_COLUMN = 1# 图片间隔，也就是合并成一张图后，一共有几列
-IMAGE_SAVE_PATH = r'outs/result/' # 图片转换后的地址,可以自己改，这个路径在存之前建立空文件夹result
+IMAGE_SAVE_PATH = r'result/' # 图片转换后的地址,可以自己改，这个路径在存之前建立空文件夹result
 
 
 #生成新图，和原始尺寸一致
@@ -72,22 +72,22 @@ def image_compose(IMAGE_width, IMAGE_height,names_list,img_before):
   for y in range(0, IMAGE_ROW):#10
     for x in range(0, IMAGE_COLUMN):#1
 
-      from_image = Image.open(IMAGES_PATH + names_list[ x+IMAGE_COLUMN * y]).resize(
+      from_image = Image.open(IMAGES_PATH +img_before+'/'+ names_list[ x+IMAGE_COLUMN * y]).resize(
         (IMAGE_width, IMAGE_height),Image.ANTIALIAS)
       print(x,y,names_list)
       to_image.paste(from_image, (x* IMAGE_width, y* IMAGE_height))
   to_image = to_image.convert('RGBA')
   print('done')
-  return to_image.save(IMAGE_SAVE_PATH+img_before) # 保存新图
+  return to_image.save(IMAGE_SAVE_PATH+'after_'+img_before) # 保存新图
 
 
 
 if __name__ == '__main__':
-
   #从before文件夹循环取图
-  # os.mkdir(r"outs") #创建文件夹存放处理结果
+  os.mkdir(r"outs") #创建文件夹存放处理结果
+  os.mkdir(r"result")
   #获取队列
-  print(file_path,'=90',os.listdir)
+  print(file_path,'=90')
   image_names_before = [name for name in os.listdir(file_path) for item in IMAGES_FORMAT if
         os.path.splitext(name)[1] == item]
   image_names_before.sort();# 排序
@@ -117,6 +117,8 @@ if __name__ == '__main__':
 
     IMAGE_width=width/IMAGE_COLUMN;
     IMAGE_height=height/IMAGE_ROW;
+
+    print(img_names_after,'=120')
     image_compose(IMAGE_width, IMAGE_height,img_names_after,img_before) #调用函数
 
     n +=1
