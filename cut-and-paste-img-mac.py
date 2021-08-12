@@ -11,16 +11,15 @@ cut_width_num = 1 # 横向切1个
 cut_height_num = 10 # 纵向切10个
 # 00,10,20,30,40;01,11,21,31,41
 
-IMAGES_FORMAT = ['.png', '.PNG','.jpg', '.JPG'] # 图片格式 
+IMAGES_FORMAT = ['.png', '.PNG'] # 图片格式 
 
 # 拼图参数
-public_path='D:/work/a-python-proj-crawler/'
-file_path = public_path+"before/" #加工前图片地址
-IMAGES_PATH = public_path+'outs/' # 图片集地址
-IMAGES_FORMAT = ['.png', '.PNG','.jpg', '.JPG'] # 图片格式
+file_path = r"before/" #加工前图片地址
+IMAGES_PATH = r'outs/' # 图片集地址
+IMAGES_FORMAT = ['.png', '.PNG'] # 图片格式
 IMAGE_ROW = 10 # 图片间隔，也就是合并成一张图后，一共有几行
 IMAGE_COLUMN = 1# 图片间隔，也就是合并成一张图后，一共有几列
-IMAGE_SAVE_PATH = public_path+'result/' # 图片转换后的地址,可以自己改，这个路径在存之前建立空文件夹result
+IMAGE_SAVE_PATH = r'result/' # 图片转换后的地址,可以自己改，这个路径在存之前建立空文件夹result
 
 
 #生成新图，和原始尺寸一致
@@ -59,8 +58,8 @@ def save_images(image_list,folder_name):
     i=0;
     for item in b:
         # 逆矩阵编号
-        item.save(IMAGES_PATH+folder_name+'/'+str(cut_height_num-1-i)+str(int(cut_width_num-1-j/cut_height_num)) + '.png', 'PNG');
-        print (i,j,'done',cut_height_num-1-i,int(cut_width_num-1-j/cut_height_num));
+        item.save(r'outs/'+folder_name+'/'+str(cut_height_num-1-i)+str(cut_width_num-1-j/cut_height_num) + '.png', 'PNG');
+        print (i,j,'done',cut_height_num-1-i,cut_width_num-1-j/cut_height_num);
         i+=1;
 
 # 拼图相关
@@ -79,19 +78,14 @@ def image_compose(IMAGE_width, IMAGE_height,names_list,img_before):
       to_image.paste(from_image, (x* IMAGE_width, y* IMAGE_height))
   to_image = to_image.convert('RGBA')
   print('done')
-  if('jpg' in img_before):
-    return to_image.save(IMAGE_SAVE_PATH+'after_'+img_before.replace('jpg','png')) # 保存新图
-  else:
-    return to_image.save(IMAGE_SAVE_PATH+'after_'+img_before) # 保存新图
+  return to_image.save(IMAGE_SAVE_PATH+'after_'+img_before) # 保存新图
 
 
 
 if __name__ == '__main__':
   #从before文件夹循环取图
-  if not os.path.exists(public_path+"outs"):
-    os.mkdir(public_path+"outs") #创建文件夹存放处理结果
-  if not os.path.exists(public_path+"result"):
-    os.mkdir(public_path+"result")
+  os.mkdir(r"outs") #创建文件夹存放处理结果
+  os.mkdir(r"result")
   #获取队列
   print(file_path,'=90')
   image_names_before = [name for name in os.listdir(file_path) for item in IMAGES_FORMAT if
@@ -121,10 +115,10 @@ if __name__ == '__main__':
     if len(img_names_after) != IMAGE_ROW * IMAGE_COLUMN:
       raise ValueError("合成图片的参数和要求的数量不能匹配！")
 
-    IMAGE_width=int(width/IMAGE_COLUMN);
-    IMAGE_height=int(height/IMAGE_ROW);
+    IMAGE_width=width/IMAGE_COLUMN;
+    IMAGE_height=height/IMAGE_ROW;
 
-    print(img_names_after,'=120',IMAGE_width, IMAGE_height,img_names_after,img_before)
+    print(img_names_after,'=120')
     image_compose(IMAGE_width, IMAGE_height,img_names_after,img_before) #调用函数
 
     n +=1
