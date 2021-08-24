@@ -40,10 +40,15 @@ a proj to learn py
 - 需要处理的图片放在before 文件夹
 
 ## js代码
-- 以下开始，都不是python文件！
-### js类的继承```a-js.html```
+ 以下开始，都不是python文件！
+### js类的继承```js/a-js.html```
 - 包含了类的继承和简单工厂模式
 
-### js 树的生成和遍历 ```js-tree.html```
+### js 树的生成和遍历 ```js/js-tree.html```
 - 本代码是由两个js合并而成，参考地址见[js 递归生成树](https://blog.csdn.net/zJunNa/article/details/109485901),[数据结构-树的遍历可视化](https://blog.csdn.net/Alan_1550587588/article/details/80384945)
 - 目标是把对象数组，通过svg生成可视化的形式。
+
+### 闭包 ```js-closure/```
+- 是整个文件夹,
+#### 参考文献
+-[五分钟快速了解闭包](https://zhuanlan.zhihu.com/p/22486908)
