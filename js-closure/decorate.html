@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>decorate model</title>
+	</head>
+	<script type="text/javascript" charset="utf-8">
+	</script>
+	<script type="application/javascript">	
+		// 装饰器模式
+		// 需要被扩展的函数 
+		function fun() {
+		    console.log('fun函数的操作');
+		}
+		
+		// 闭包的外部函数,需要接收一个是函数的参数
+		function outter(f) {
+		    // 此时f就是外部函数的一个成员变量,内部函数理所应当的可以操作这个变量
+		    function inner() {
+		        console.log('额外功能：在运行函数前打印日志');
+		        f(); // 调用外部函数的变量f,也就是说调用需要被扩展的函数
+		        console.log('额外功能：在运行函数后打印日志');
+		    }
+		    // 外部函数最后将内部函数inner返回出去
+		    return inner;
+		}
+		// 调用外部函数,并传递参数进去. 这样就可以拿到已经扩展后的函数:inner()
+		let f = outter(fun);
+		f(); // 此时f函数已经将原来的fun()函数功能扩展了，就相当于是inner()
+		
+		// 一般装饰模式都是将原函数给覆盖：
+		fun = outter(fun);
+		fun(); // 此时再调用原函数的话，其实就是在调用inner()，是包含了扩展功能的
+		/*
+		输出内容：
+		额外功能：在运行函数前打印日志
+		fun函数的操作
+		额外功能：在运行函数后打印日志
+		*/
+
+	</script>
+	<body>
+		
+	</body>
+</html>

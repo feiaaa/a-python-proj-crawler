@@ -4,7 +4,7 @@
 /*:
  * @plugindesc (v.0.0)对话内容插件
  * 把对话放在json字符串里，引用展示
- * @author feiaaa  https://gitee.com/feiaaa
+ * 
  *
  */
 

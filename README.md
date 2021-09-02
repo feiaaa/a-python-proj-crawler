@@ -50,5 +50,10 @@ a proj to learn py
 
 ### 闭包 ```js-closure/```
 - 是整个文件夹,
+- 包含装饰器模式
+### 阅读器 ```js-reader/```
+- ```reader.js```内使用闭包+```$.getJson```的方式获取文件,读取json内容；需要引用jQuery
+- ```reader-excel```使用插件```xlsx.core.min```，上传了locale文件夹里的xlsx文件后可被读取。[插件传送门](https://raw.githubusercontent.com/SheetJS/sheetjs/master/dist/xlsx.core.min.js
+)
 #### 参考文献
 -[五分钟快速了解闭包](https://zhuanlan.zhihu.com/p/22486908)
