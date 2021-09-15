@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<script type="text/javascript">
+		var Fei3a={};
+		(function f1(){
+			console.log(1)
+			Fei3a.a='aaaa'
+			Fei3a.say=function(){
+				console.log('say'+this.a)
+			}
+		})();
+		
+		
+		var Fei3b={}
+		function out(){
+			// f1();
+			Fei3b=Object.create(Fei3a)
+			
+			console.log('out',Fei3b.a,Fei3b.say)
+		}
+		out()
+	</script>
+	<body>
+	</body>
+</html>

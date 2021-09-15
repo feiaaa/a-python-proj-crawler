@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>stage pattern & state pattern</title>
+	</head>
+	<script type="text/javascript" charset="utf-8">
+	</script>
+	<script type="application/javascript">	
+		/*
+		简单：策略模式-可相互替换
+		组合：状态模式-状态改变行为
+		*/ 
+		
+		/* without pattern
+		function Mary(action){
+
+			if(action=='left'){
+				console.log('goLeft')
+			}else if(action==['left','right']){
+				console.log('goLeft','goRight')
+			}
+			....
+			
+		}
+		*/  
+		// single state：stage pattern；
+		// multiple state：state pattern；
+		function Mary(){
+		    this.state=[]; // stage pattern
+		    this.actionObj={ // state pattern
+		        left:function(){
+		            console.log('goLeft')
+		        },
+		        right:function(){
+		            console.log('goRight')
+		        },
+		        fire:function(){
+		            console.log('fire')
+		        }
+		    }
+		}
+		Mary.prototype.setState=function(action){
+		    if(typeof action=='string'){
+		        this.state.push(action)
+		    }else{
+		        this.state=this.state.concat(action)
+		    }
+		}
+		Mary.prototype.runState=function(){
+		    this.state.forEach((action)=>{
+		        this.actionObj[action]();
+		    })
+		}
+		//
+		var a=new Mary()
+		a.setState('left');
+		a.runState();
+		console.log('changed=====!concat last action')
+		a.setState(['fire','left','right'])
+		a.runState()
+
+	</script>
+	<body>
+		
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<script type="text/javascript">
+		/* one class only have  one init;
+		can not run;
+		vue.use()=>vuerouter.install
+		*/ 
+
+		var _vue;
+		function install(vue){
+			if(install.installed && _vue ==vue) return;//singleton
+			install.installed=='true';
+			_vue =vue;
+		}
+	</script>
+	<body>
+	</body>
+</html>
