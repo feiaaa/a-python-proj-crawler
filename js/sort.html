@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>排序</title>
+		<!-- <script src="sort.js" type="text/javascript" charset="utf-8"></script> -->
+		<script src="sort-with-color.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<a href="https://www.runoob.com/w3cnote/bubble-sort.html">10 sorts</a>
+		<div>
+			before:
+			<span id="arrayBefore">9,8,7,6,5,4</span>
+		</div>
+		<div>
+			after:
+			<span id="arrayAfter"></span>
+		</div>
+		<div id="buttonArea">
+			<button type="button" onclick="packageSort('selectionSortDom')">选择排序</button>
+			<button type="button" onclick="packageSort('insertionSortDom')">快速排序</button>
+			
+		</div>
+	</body>
+	<script type="text/javascript">
+		var array=document.getElementById("arrayBefore").innerHTML.split(",");
+		function Sort(type,options){
+			this.type=type.replace('SortDom','');
+			this.res=[];
+			switch(this.type){
+				case 'insertion':
+					this.res=insertionSort(array,options);
+				break;
+				case 'selection':
+					this.res=selectionSort(array,options);
+				break;
+			};
+			return this.res;
+		}
+		function packageSort(type){
+			 const res= new Sort(type,{step:true});
+			 document.getElementById("arrayAfter").innerHTML=res.join(",")
+		}
+	</script>
+</html>
