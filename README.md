@@ -47,7 +47,8 @@ a proj to learn py
 ### js 树的生成和遍历 ```js/js-tree.html```
 - 本代码是由两个js合并而成，参考地址见[js 递归生成树](https://blog.csdn.net/zJunNa/article/details/109485901),[数据结构-树的遍历可视化](https://blog.csdn.net/Alan_1550587588/article/details/80384945)
 - 目标是把对象数组，通过svg生成可视化的形式。
-
+### js十大排序
+- [地址](https://github.com/hustcc/JS-Sorting-Algorithm)
 ### 设计模式 ```js-pattern/```
 - 是整个文件夹,具体看名字
 ### 阅读器 ```js-reader/```

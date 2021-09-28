@@ -8,7 +8,7 @@
 		
 	</head>
 	<body>
-		<a href="https://www.runoob.com/w3cnote/bubble-sort.html">10 sorts</a>
+		<a href="https://github.com/hustcc/JS-Sorting-Algorithm">10 sorts</a>
 		<div>
 			before:
 			<span id="arrayBefore">9,8,7,6,5,4</span>
@@ -20,6 +20,8 @@
 		<div id="buttonArea">
 			<button type="button" onclick="packageSort('selectionSortDom')">选择排序</button>
 			<button type="button" onclick="packageSort('insertionSortDom')">快速排序</button>
+			<button type="button" onclick="packageSort('shellSortDom')">希尔排序</button>
+			<button type="button" onclick="packageSort('mergeSortDom')">归并排序</button>
 			
 		</div>
 	</body>
@@ -35,6 +37,12 @@
 				break;
 				case 'selection':
 					this.res=selectionSort(array,options);
+				break;
+				case 'shell':
+					this.res=shellSort(array,options);
+				break;
+				case 'merge':
+					this.res=mergeSort(array,options);
 				break;
 			};
 			return this.res;
