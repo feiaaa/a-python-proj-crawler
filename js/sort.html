@@ -28,6 +28,7 @@
 		function Sort(type,options){
 			this.type=type.replace('SortDom','');
 			this.res=[];
+			console.log(this.type,'=31',options)
 			switch(this.type){
 				case 'insertion':
 					this.res=insertionSort(array,options);

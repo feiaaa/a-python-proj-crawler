@@ -1,5 +1,6 @@
 
 function insertionSort(arr,options){
+	
 	var {step=false}=options
     var len=arr.length;
     var i,pre;
@@ -10,10 +11,10 @@ function insertionSort(arr,options){
             for(pre;pre>=0 && arr[pre]>tmp;pre--){
                 arr[pre+1]=arr[pre]; // 已经排序过的内部调动，交换位置
             }
-            arr[pre+1]=tmp // 对比后，小于后项的数。（停止比较的位置）
-		if(step)console.log(arr)// 每次排序后就打印
-    }
-
+            arr[pre+1]=tmp // 对比后，小于后项的数。（停止比较的位置）		
+		}
+	if(step)console.log(arr)// 每次排序后就打印
+	}
     return arr
 }
 function selectionSort(arr,options) {
@@ -34,7 +35,5 @@ function selectionSort(arr,options) {
 		 
 		if(step)console.log(arr)// 每次排序后就打印
     }
-
-
     return arr
 }
