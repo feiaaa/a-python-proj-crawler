@@ -25,16 +25,57 @@ class singleLinkedList{
 			current.next=node;
 		}
 	}
-	//更新节点
+	//指定位置前插入节点 O(n)
+	insert(data,target) {
+		let node =new neNode(data);
+		let current=this.head;
+		while(current.next){
+			if(current.data==target){
+				node.next=current.next; // 新节点next指下家
+				current.next=node;// 旧节点next指新节点
+				break;
+			}
+			current=current.next;
+		}
+	}
 	
-	//插入节点()
+	//查找节点O(n)
+	find(data){
+		let current=this.head;
+		while(current){
+			if(current.data==data){
+				return current;
+			}
+			current=current.next;
+		}
+		return null;
+	}
+	// 删除节点O(n)
+	remove(data){
+		//需要两个指针，一个指现在，一个指前一步
+		let current=this.head;
+		let prev=null;
+		while(current){
+			if(current.data==data){
+				if(prev==null){// 删的是第一项
+					this.head=current.next;
+				}else{ // 删的是中间项
+					prev.next=current.next;
+				}
+				
+			}
+			prev=current;
+			current=current.next;
+		}
+	}
 }
 const list = new singleLinkedList();
 list.add(1);
 list.add(2);
 list.add(3);
-// list.insert(4, 2);
+list.insert(4, 2);
+console.log(list.find(3),"==find");
+list.remove(3);
 console.dir(list, { depth: null });
-
 
 // 双向链表
