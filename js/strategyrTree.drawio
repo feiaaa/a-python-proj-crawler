@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T01:56:41.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="FBM4SMqxkEB_1tdOfzX_" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T08:02:13.747Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="eAntuRLIYhBS3KyZFuAJ" version="22.1.0" type="github">
   <diagram name="第 1 页" id="yJQVINWv8Zk17fUq3llq">
-    <mxGraphModel dx="2466" dy="2643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1233" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,6 +343,18 @@
         </mxCell>
         <mxCell id="hX1Yc7hWCkJh4GDTsUoK-110" value="5年行情" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="635.5" y="950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--7" value="确定不同的备选方案&lt;br&gt;（方案数目&amp;gt;1）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--8" value="选出最有效率的方式实现目标方案" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--9" value="考虑限制条件&lt;br&gt;（伦理法治）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--10" value="考虑竞对的可能行为和反应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
