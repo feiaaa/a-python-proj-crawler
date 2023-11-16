@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T03:40:34.064Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ao9KyxWYoZ0-UfBU_M5b" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T03:43:09.777Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="taQ6flICNmaTxNPpW4zn" version="22.1.0" type="github">
   <diagram name="第 1 页" id="yJQVINWv8Zk17fUq3llq">
     <mxGraphModel dx="1233" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -356,14 +356,35 @@
         <mxCell id="p50e63nl26nlq7pi-9W--10" value="考虑竞对的可能行为和反应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p50e63nl26nlq7pi-9W--11" value="经济利润 = 总收入- 经济成本" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="p50e63nl26nlq7pi-9W--11" value="经济利润 = 总收入- 经济支出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" y="1210" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p50e63nl26nlq7pi-9W--12" value="会计成本&lt;br&gt;有感知，进账本&lt;br&gt;别名显性成本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="392" y="1240" width="120" height="60" as="geometry" />
+          <mxGeometry x="392" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p50e63nl26nlq7pi-9W--13" value="机会成本&lt;br&gt;无感知，不进账本&lt;br&gt;别名隐性成本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1240" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--14" value="会计利润=总收入-会计支出" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1380" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p50e63nl26nlq7pi-9W--12" target="p50e63nl26nlq7pi-9W--14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1330" as="sourcePoint" />
+            <mxPoint x="560" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.896;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="p50e63nl26nlq7pi-9W--11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="1280" as="sourcePoint" />
+            <mxPoint x="419.31999999999994" y="1206.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.896;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p50e63nl26nlq7pi-9W--13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1290" as="sourcePoint" />
+            <mxPoint x="451" y="1251" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
