@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T03:43:54.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="BhRIwETZ1xFjvmz2TLcz" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T06:21:58.887Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Zopu5R5he7n4MrCAe3LW" version="22.1.0" type="github">
   <diagram name="第 1 页" id="yJQVINWv8Zk17fUq3llq">
-    <mxGraphModel dx="1233" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="712" dy="1507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -385,6 +385,45 @@
             <mxPoint x="480" y="1290" as="sourcePoint" />
             <mxPoint x="451" y="1251" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--18" value="报案" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1621" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="1640.23" as="sourcePoint" />
+            <mxPoint x="120" y="1640.46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--20" value="录入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1621" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="1640.23" as="sourcePoint" />
+            <mxPoint x="230" y="1640.46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--22" value="理赔" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1621" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="1640.23" as="sourcePoint" />
+            <mxPoint x="340" y="1640.46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--24" value="风控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="1621" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412" y="1640.23" as="sourcePoint" />
+            <mxPoint x="452" y="1640.46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p50e63nl26nlq7pi-9W--26" value="结案" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="452" y="1621" width="70" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
