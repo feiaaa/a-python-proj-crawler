@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T06:53:07.777Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="JEPfl1uAVUUPXtiLdQOu" version="23.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-24T07:20:55.012Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6hSCtv3tN_Q-a1c-baJi" version="23.0.0" type="github" pages="2">
   <diagram name="ObjectChain" id="yJQVINWv8Zk17fUq3llq">
     <mxGraphModel dx="913" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -348,7 +348,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BDxn3_-F_jnJA8M1lbv9" name="paper">
-    <mxGraphModel dx="1826" dy="-205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1074" dy="-602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -485,7 +485,7 @@
         <mxCell id="7J95ofu1zCI9c90HoAOy-23" value="初审手动通过，&lt;br&gt;到复核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="1960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7J95ofu1zCI9c90HoAOy-27" value="案件查询入口进入，&lt;br&gt;不主动弹框，&lt;br&gt;纯备注模式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="7J95ofu1zCI9c90HoAOy-27" value="案件查询入口进入，&lt;br&gt;不主动弹框，&lt;br&gt;只读模式；&lt;br&gt;&lt;br&gt;初审主动弹框，是否认同差错" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="200" y="1800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7J95ofu1zCI9c90HoAOy-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" target="7J95ofu1zCI9c90HoAOy-5">
@@ -500,7 +500,7 @@
             <mxPoint x="510" y="1790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7J95ofu1zCI9c90HoAOy-31" value="案件查询入口进入，&lt;br&gt;不主动弹框，&lt;br&gt;纯备注模式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="7J95ofu1zCI9c90HoAOy-31" value="案件查询入口进入，&lt;br&gt;不主动弹框，&lt;br&gt;只读模式&lt;br&gt;&lt;br&gt;复核主动弹框，是否同意申诉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="520" y="1800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7J95ofu1zCI9c90HoAOy-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
