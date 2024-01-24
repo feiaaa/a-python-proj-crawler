@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T11:54:24.335Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="TcLhkVnJES69w7dreUUn" version="23.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-24T11:57:23.959Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="aVWau-jXuxzVhINGWv44" version="23.0.0" type="github" pages="2">
   <diagram name="ObjectChain" id="yJQVINWv8Zk17fUq3llq">
     <mxGraphModel dx="913" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -549,6 +549,15 @@
             <mxPoint x="192" y="2000" as="sourcePoint" />
             <mxPoint x="152" y="2000" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7J95ofu1zCI9c90HoAOy-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7J95ofu1zCI9c90HoAOy-45" target="7J95ofu1zCI9c90HoAOy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7J95ofu1zCI9c90HoAOy-45" value="复核退回初审/gw/bpmn/remark/save&lt;br&gt;&lt;div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;claimId&quot;: &quot;SGC9230410300002&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;companyCode&quot;: &quot;000036110000&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;remarkNo&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;claimStage&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;claimStatus&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;remarkInfo&quot;: &quot;初审首次不认同差错&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;remarkCategory&quot;: &quot;01&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;remarkSubCategory&quot;: &quot;1&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;remarkSubmitter&quot;: &quot;wangting&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;remarkSubmitterDispalyName&quot;: &quot;王婷1&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;remarkConclusion&quot;: 3,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;agreeTargetStatus&quot;: 20&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110.5" y="1360" width="299" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7J95ofu1zCI9c90HoAOy-47" value="复核退回初审/gw/cs/bpmn/updateClaimStatus&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;claimId&quot;: &quot;SGC9230410300002&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;reviewRetCode&quot;: 1,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;operateType&quot;: 10,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;suggestionDesc&quot;: &quot;人肉pass初审1&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;suggestionCode&quot;: null,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;companyCode&quot;: &quot;000036110000&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;claimType&quot;: 0&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="910" width="290" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
