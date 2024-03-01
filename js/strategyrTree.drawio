@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T08:53:17.218Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="rHIw02bmyqZNOi4OE6QP" version="23.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-01T08:59:41.386Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="pMbjba-gX4G6IS9ln75-" version="23.0.2" type="github" pages="3">
   <diagram name="ObjectChain" id="yJQVINWv8Zk17fUq3llq">
     <mxGraphModel dx="913" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -348,7 +348,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BDxn3_-F_jnJA8M1lbv9" name="paper">
-    <mxGraphModel dx="2384" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3314" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1133,6 +1133,76 @@
             <mxPoint x="-101.5" y="6455" as="sourcePoint" />
             <mxPoint x="-11.5" y="6455" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-18" value="里面调各自对象里的&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;memoize（缓存） function&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;params 是function的入参（可能用不上）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="6030" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-19" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mW8beu4PvQUvZsU8bmUJ-25" target="jWzTV62BmGK0AsJFQVQM-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="6280" as="sourcePoint" />
+            <mxPoint x="20" y="6230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-35" value="dataWarehouseDetail" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="6230" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-36" value="create(dataIndex, params)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jWzTV62BmGK0AsJFQVQM-35">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-37" value="retrieve(dataIndex, params)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jWzTV62BmGK0AsJFQVQM-35">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-38" value="update(dataIndex, params)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jWzTV62BmGK0AsJFQVQM-35">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-39" value="delete(dataIndex, params)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jWzTV62BmGK0AsJFQVQM-35">
+          <mxGeometry y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-40" value="dataGetterMap&lt;br&gt;Object" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="782" y="6250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-41" value="dataIndex" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jWzTV62BmGK0AsJFQVQM-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="6275" as="sourcePoint" />
+            <mxPoint x="780" y="6275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-42" value="detaUpdaterMap&lt;br&gt;Object" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="782" y="6340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-43" value="dataIndex" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jWzTV62BmGK0AsJFQVQM-38">
+          <mxGeometry x="-0.0044" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="6365" as="sourcePoint" />
+            <mxPoint x="780" y="6365" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-44" value="dataCreatorMap&lt;br&gt;Object" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="781.5" y="6160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-45" value="dataIndex" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.006;exitY=0.307;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jWzTV62BmGK0AsJFQVQM-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689.5" y="6185" as="sourcePoint" />
+            <mxPoint x="779.5" y="6185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-46" value="detaDeleterMap&lt;br&gt;Object" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="781.5" y="6430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-47" value="dataIndex" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jWzTV62BmGK0AsJFQVQM-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689.5" y="6455" as="sourcePoint" />
+            <mxPoint x="779.5" y="6455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-48" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jWzTV62BmGK0AsJFQVQM-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="761" y="6280" as="sourcePoint" />
+            <mxPoint x="957" y="6082" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-49" value="长得和隔壁差不多&lt;br&gt;里面调各自对象里的&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;memoize（缓存） function&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;params 是function的入参（可能用不上）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="6030" width="230" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
