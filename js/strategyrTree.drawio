@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T09:15:39.720Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6y__nh0mnqAqcPHdpQnq" version="23.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-01T09:16:36.432Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Ue3qo1EumYcF5jciavS7" version="23.0.2" type="github" pages="3">
   <diagram name="ObjectChain" id="yJQVINWv8Zk17fUq3llq">
     <mxGraphModel dx="913" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1205,7 +1205,7 @@
           <mxGeometry x="950" y="6030" width="230" height="130" as="geometry" />
         </mxCell>
         <mxCell id="jWzTV62BmGK0AsJFQVQM-51" value="&lt;h1&gt;调用方法&lt;br&gt;&lt;/h1&gt;domainize&lt;p&gt;位置（范例）：&lt;/p&gt;src/dataMarket/dataWarehouse/detail/XXXDWD.js&lt;br&gt;fetch 到service&lt;br&gt;&lt;br&gt;domain(para1,para2) // 把获取的方法para1，得到的结果；&lt;br&gt;把结果2用指定的格式方法para2 转化&lt;br&gt;得到的是转化结果" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="976" y="5780" width="414" height="260" as="geometry" />
+          <mxGeometry x="995" y="6350" width="414" height="260" as="geometry" />
         </mxCell>
         <mxCell id="jWzTV62BmGK0AsJFQVQM-52" value="memorize()" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="6200" width="140" height="120" as="geometry" />
@@ -1241,6 +1241,30 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1130" y="6170" as="sourcePoint" />
             <mxPoint x="1180" y="6120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWzTV62BmGK0AsJFQVQM-44" target="jWzTV62BmGK0AsJFQVQM-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="6330" as="sourcePoint" />
+            <mxPoint x="1070" y="6280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWzTV62BmGK0AsJFQVQM-46" target="jWzTV62BmGK0AsJFQVQM-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="6330" as="sourcePoint" />
+            <mxPoint x="1070" y="6280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jWzTV62BmGK0AsJFQVQM-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="6330" as="sourcePoint" />
+            <mxPoint x="990" y="6240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.018;entryY=-0.144;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jWzTV62BmGK0AsJFQVQM-40" target="jWzTV62BmGK0AsJFQVQM-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="6330" as="sourcePoint" />
+            <mxPoint x="1070" y="6280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
