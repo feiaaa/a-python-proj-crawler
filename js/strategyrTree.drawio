@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T09:35:18.001Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Trz18IPFz-DbP1dROERB" version="23.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-01T09:39:13.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="4_xywWA4QSfXg0NIeao1" version="23.0.2" type="github" pages="3">
   <diagram name="ObjectChain" id="yJQVINWv8Zk17fUq3llq">
     <mxGraphModel dx="913" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -348,7 +348,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BDxn3_-F_jnJA8M1lbv9" name="paper">
-    <mxGraphModel dx="2728" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2795" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1261,7 +1261,7 @@
             <mxPoint x="1070" y="6280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jWzTV62BmGK0AsJFQVQM-70" value="&lt;h1&gt;缓存方法&lt;br&gt;&lt;/h1&gt;memorize&lt;br&gt;方法本体位置&lt;br&gt;src/components/ControlledSortableTable/index.js&lt;br&gt;&lt;p&gt;位置（范例）：&lt;/p&gt;src/dataMarket/operationalDataStore/XXXHTTPDataStore.js&lt;br&gt;&lt;br&gt;memorize() 参数是个function，即fetch service，&lt;br&gt;本体位置中建立了一个闭包（一个fetch一个包，两个fetch则2个包）&lt;br&gt;存在cache里面" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jWzTV62BmGK0AsJFQVQM-70" value="&lt;h1&gt;缓存方法&lt;br&gt;&lt;/h1&gt;memorize&lt;br&gt;方法本体位置&lt;br&gt;src/components/ControlledSortableTable/index.js&lt;br&gt;&lt;p&gt;位置（范例）：&lt;/p&gt;src/dataMarket/operationalDataStore/XXXHTTPDataStore.js&lt;br&gt;&lt;br&gt;memorize() 参数是个function返回的结果，即fetch service 得到的值，&lt;br&gt;本体位置中建立了一个闭包（一个fetch一个包，两个fetch则2个包）&lt;br&gt;存在cache里面" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="6440" width="414" height="260" as="geometry" />
         </mxCell>
         <mxCell id="jWzTV62BmGK0AsJFQVQM-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jWzTV62BmGK0AsJFQVQM-52" target="jWzTV62BmGK0AsJFQVQM-35">
