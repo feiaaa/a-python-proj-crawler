@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T05:40:07.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="1elhr5TQ_WEBruvOUX5n" version="24.2.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-04-15T05:21:18.780Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Fed7wmYYGX77oU5EtwZF" version="24.2.1" type="github" pages="4">
   <diagram name="ObjectChain" id="yJQVINWv8Zk17fUq3llq">
-    <mxGraphModel dx="5247" dy="4609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1557,143 +1557,149 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Fq9IkUPcFaPOMKJnuJ4R" name="accounting">
-    <mxGraphModel dx="787" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="80" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-2" value="平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-2" value="平台" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-3" value="供应商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-3" value="供应商" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-4" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="100" as="sourcePoint" />
             <mxPoint x="240" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-5" value="3.买券,打钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MQ0un_2M_d1vAIod-CK7-4">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-5" value="3.买券,打钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MQ0un_2M_d1vAIod-CK7-4" vertex="1" connectable="0">
           <mxGeometry x="-0.15" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="MQ0un_2M_d1vAIod-CK7-2">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="MQ0un_2M_d1vAIod-CK7-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="210" as="sourcePoint" />
             <mxPoint x="160" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-7" value="4.发券，收钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MQ0un_2M_d1vAIod-CK7-6">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-7" value="4.发券，收钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MQ0un_2M_d1vAIod-CK7-6" vertex="1" connectable="0">
           <mxGeometry x="-0.02" y="-4" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="97" as="sourcePoint" />
             <mxPoint x="440" y="97" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-12" value="1.买券,打钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MQ0un_2M_d1vAIod-CK7-11">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-12" value="1.买券,打钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MQ0un_2M_d1vAIod-CK7-11" vertex="1" connectable="0">
           <mxGeometry x="-0.15" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="122" as="sourcePoint" />
             <mxPoint x="360" y="122" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-14" value="2.发券，收钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MQ0un_2M_d1vAIod-CK7-13">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-14" value="2.发券，收钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MQ0un_2M_d1vAIod-CK7-13" vertex="1" connectable="0">
           <mxGeometry x="-0.02" y="-4" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-15" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-15" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="240" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-16" value="平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-16" value="平台" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-17" value="供应商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-17" value="供应商" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="260" as="sourcePoint" />
             <mxPoint x="240" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-19" value="3.买券,打钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MQ0un_2M_d1vAIod-CK7-18">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-19" value="3.买券,打钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MQ0un_2M_d1vAIod-CK7-18" vertex="1" connectable="0">
           <mxGeometry x="-0.15" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="MQ0un_2M_d1vAIod-CK7-16">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="MQ0un_2M_d1vAIod-CK7-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="370" as="sourcePoint" />
             <mxPoint x="160" y="285" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-21" value="4.发券，收钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MQ0un_2M_d1vAIod-CK7-20">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-21" value="4.发券，收钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MQ0un_2M_d1vAIod-CK7-20" vertex="1" connectable="0">
           <mxGeometry x="-0.02" y="-4" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="257" as="sourcePoint" />
             <mxPoint x="440" y="257" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-23" value="1.买券" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MQ0un_2M_d1vAIod-CK7-22">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-23" value="1.买券" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MQ0un_2M_d1vAIod-CK7-22" vertex="1" connectable="0">
           <mxGeometry x="-0.15" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="282" as="sourcePoint" />
             <mxPoint x="360" y="282" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-25" value="2.发券" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MQ0un_2M_d1vAIod-CK7-24">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-25" value="2.发券" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MQ0un_2M_d1vAIod-CK7-24" vertex="1" connectable="0">
           <mxGeometry x="-0.02" y="-4" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="361" y="296" as="sourcePoint" />
             <mxPoint x="441" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-27" value="5.打钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MQ0un_2M_d1vAIod-CK7-26">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-27" value="5.打钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MQ0un_2M_d1vAIod-CK7-26" vertex="1" connectable="0">
           <mxGeometry x="-0.15" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="441" y="321" as="sourcePoint" />
             <mxPoint x="361" y="321" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-29" value="6.收钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MQ0un_2M_d1vAIod-CK7-28">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-29" value="6.收钱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MQ0un_2M_d1vAIod-CK7-28" vertex="1" connectable="0">
           <mxGeometry x="-0.02" y="-4" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-30" value="有囤货" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-30" value="有囤货" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="-10" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MQ0un_2M_d1vAIod-CK7-31" value="无囤货&lt;div&gt;有资金池&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQ0un_2M_d1vAIod-CK7-31" value="无囤货" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PByAQJjcf0XP34LQQ_Dt-1" value="传统模式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PByAQJjcf0XP34LQQ_Dt-2" value="兑付模式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
