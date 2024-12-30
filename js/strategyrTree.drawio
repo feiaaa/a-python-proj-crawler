@@ -1978,8 +1978,47 @@
         <mxCell id="mPdQtrXj7CEQCdQFfoXK-17" value="隐含的约束条件（N*&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-14">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mPdQtrXj7CEQCdQFfoXK-20" value="应用领域&lt;div&gt;投资回报max，风险min&lt;/div&gt;&lt;div&gt;收入Max，金钱或时间成本min&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-20" value="应用领域&lt;div&gt;投资回报max，风险min&lt;/div&gt;&lt;div&gt;收入Max，金钱或时间成本min&lt;/div&gt;&lt;div&gt;*可能存在风险偏好&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="240" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-23" value="AOE关键路径" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-24" value="关键路径可以不止1条" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-23">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-25" value="所有节点按路径从头到尾加一遍，最短的就是关键路径" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-23">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-26" value="计算最晚开始时间，有多个输入的，取时间最大。计算最早结束时间，有多个输出的选最小的" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-23">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-27" value="应用领域&lt;div&gt;&lt;div&gt;AOE&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="560" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-30" value="对风险的态度" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-31" value="目标函数取收入max" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-30">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-32" value="约束条件中有对风险偏好的限制" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-30">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-33" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-30">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-34" value="怎么读结果表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-35" value="目标函数 的 结果" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-34">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-36" value="达到结果的各变量值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-34">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-37" value="隐含的约束条件（N*&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-34">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
