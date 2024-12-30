@@ -1936,7 +1936,7 @@
         <mxCell id="mPdQtrXj7CEQCdQFfoXK-3" value="工厂配货问题" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="200" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="mPdQtrXj7CEQCdQFfoXK-4" value="在做题的第1步先计算供需平衡（供需？）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-3">
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-4" value="在做题的第1步先计算供需平衡（供&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体;&quot;&gt;≥&lt;/span&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;/span&gt;需？）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-3">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mPdQtrXj7CEQCdQFfoXK-5" value="如果供的少，要增加虚拟节点填补空缺" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-3">
