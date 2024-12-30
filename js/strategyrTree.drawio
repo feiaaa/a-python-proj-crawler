@@ -1933,6 +1933,21 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-3" value="01问题" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-4" value="生产组合问题（考虑setup成本）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-3">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-5" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-3">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-6" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-3">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPdQtrXj7CEQCdQFfoXK-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; font-size: 12px; font-weight: 400;&quot;&gt;数模自救指南&lt;/span&gt;&lt;/h1&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font;&quot;&gt;本指南适合人群：上课没怎么听的 or 没听懂的 or 不太想费脑究其原因细节的。&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font;&quot;&gt;效用：可以保住拿到一些分但是拿不了高分。&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="180" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
