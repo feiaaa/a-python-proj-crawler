@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.2" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.2" pages="8">
   <diagram name="ObjectChain" id="yJQVINWv8Zk17fUq3llq">
     <mxGraphModel dx="5247" dy="4609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -347,8 +347,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="BDxn3_-F_jnJA8M1lbv9" name="paper">
-    <mxGraphModel dx="4802" dy="2064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="BDxn3_-F_jnJA8M1lbv9" name="HCP-workflow">
+    <mxGraphModel dx="3466" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1302,6 +1302,14 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="0CvuQ6sIM24D2RZzGndl" name="DTPB">
+    <mxGraphModel dx="906" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="WW4Jj1I7-LsMfWWJ9PMR" name="acp">
     <mxGraphModel dx="2623" dy="2889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1787,7 +1795,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="2SsXJ_l39VYvOUSUSDkj" name="流程">
+  <diagram id="2SsXJ_l39VYvOUSUSDkj" name="商法流程">
     <mxGraphModel dx="906" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -2006,7 +2014,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RO7Zm6rrHca_drH3GOhs-5" value="嗨翻天公司&lt;div&gt;（成都）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RO7Zm6rrHca_drH3GOhs-5" value="嗨翻屋公司&lt;div&gt;（成都）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="-520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RO7Zm6rrHca_drH3GOhs-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
@@ -2020,7 +2028,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RO7Zm6rrHca_drH3GOhs-8" value="嗨翻天公司&lt;div&gt;（成都）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RO7Zm6rrHca_drH3GOhs-8" value="嗨翻屋公司&lt;div&gt;（成都）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="-400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RO7Zm6rrHca_drH3GOhs-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RO7Zm6rrHca_drH3GOhs-5">
