@@ -348,7 +348,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BDxn3_-F_jnJA8M1lbv9" name="HCP-workflow">
-    <mxGraphModel dx="3466" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2227" dy="271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1299,11 +1299,81 @@
             <mxPoint x="199" y="6251" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Vyj59YfVFn1oVVHblOXz-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="30" y="620" width="512" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="Vyj59YfVFn1oVVHblOXz-2" value="报案" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vyj59YfVFn1oVVHblOXz-1">
+          <mxGeometry width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="Vyj59YfVFn1oVVHblOXz-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Vyj59YfVFn1oVVHblOXz-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="19.230000000000018" as="sourcePoint" />
+            <mxPoint x="110" y="19.460000000000036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1ZfVkwF7br1GCRL3FFB-1" value="受理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vyj59YfVFn1oVVHblOXz-3">
+          <mxGeometry x="0.0163" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vyj59YfVFn1oVVHblOXz-4" value="录入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vyj59YfVFn1oVVHblOXz-1">
+          <mxGeometry x="110" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="Vyj59YfVFn1oVVHblOXz-6" value="理赔" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vyj59YfVFn1oVVHblOXz-1">
+          <mxGeometry x="220" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="Vyj59YfVFn1oVVHblOXz-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Vyj59YfVFn1oVVHblOXz-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="14.230000000000018" as="sourcePoint" />
+            <mxPoint x="330" y="14.460000000000036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1ZfVkwF7br1GCRL3FFB-4" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vyj59YfVFn1oVVHblOXz-7">
+          <mxGeometry x="0.0168" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vyj59YfVFn1oVVHblOXz-8" value="结案" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vyj59YfVFn1oVVHblOXz-1">
+          <mxGeometry x="332" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="v1ZfVkwF7br1GCRL3FFB-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Vyj59YfVFn1oVVHblOXz-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="332" y="25" as="sourcePoint" />
+            <mxPoint x="290" y="25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1ZfVkwF7br1GCRL3FFB-7" value="驳回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v1ZfVkwF7br1GCRL3FFB-6">
+          <mxGeometry x="-0.0873" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1ZfVkwF7br1GCRL3FFB-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="635.23" as="sourcePoint" />
+            <mxPoint x="250" y="635.46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1ZfVkwF7br1GCRL3FFB-9" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v1ZfVkwF7br1GCRL3FFB-8">
+          <mxGeometry x="0.0168" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1ZfVkwF7br1GCRL3FFB-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="251" y="646" as="sourcePoint" />
+            <mxPoint x="209" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1ZfVkwF7br1GCRL3FFB-11" value="驳回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v1ZfVkwF7br1GCRL3FFB-10">
+          <mxGeometry x="-0.0873" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="0CvuQ6sIM24D2RZzGndl" name="DTPB">
-    <mxGraphModel dx="917" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
