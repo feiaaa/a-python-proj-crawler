@@ -348,7 +348,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BDxn3_-F_jnJA8M1lbv9" name="HCP-workflow">
-    <mxGraphModel dx="2889" dy="2776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4124" dy="3213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1556,11 +1556,13 @@
         <mxCell id="bPHa-K_MA9cfAMM-uTkG-7" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1382.5" y="-1080" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bPHa-K_MA9cfAMM-uTkG-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bPHa-K_MA9cfAMM-uTkG-17" target="bPHa-K_MA9cfAMM-uTkG-23">
+        <mxCell id="bPHa-K_MA9cfAMM-uTkG-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bPHa-K_MA9cfAMM-uTkG-17" target="bPHa-K_MA9cfAMM-uTkG-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1268" y="-170" as="sourcePoint" />
             <mxPoint x="1468" y="-130" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="1608" y="-750" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bPHa-K_MA9cfAMM-uTkG-9" value="保险公司&lt;div&gt;通过API接口&lt;div&gt;传到TPA公司&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bPHa-K_MA9cfAMM-uTkG-8">
@@ -1592,6 +1594,10 @@
         <mxCell id="bPHa-K_MA9cfAMM-uTkG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bPHa-K_MA9cfAMM-uTkG-16" target="bPHa-K_MA9cfAMM-uTkG-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1140" y="-660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="-750" />
+              <mxPoint x="1140" y="-610" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bPHa-K_MA9cfAMM-uTkG-15" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bPHa-K_MA9cfAMM-uTkG-14">
@@ -1606,13 +1612,13 @@
           <mxGeometry x="1392.5" y="-780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bPHa-K_MA9cfAMM-uTkG-18" value="用户把报案材料&lt;div&gt;寄到保险公司&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="-690" width="120" height="60" as="geometry" />
+          <mxGeometry x="1200" y="-640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bPHa-K_MA9cfAMM-uTkG-19" value="理赔服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1520" y="-1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bPHa-K_MA9cfAMM-uTkG-20" value="扫描" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="-520" width="120" height="60" as="geometry" />
+          <mxGeometry x="1392.5" y="-640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bPHa-K_MA9cfAMM-uTkG-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bPHa-K_MA9cfAMM-uTkG-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1630,13 +1636,12 @@
             <mxPoint x="1368" as="sourcePoint" />
             <mxPoint x="1190" y="-340" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1140" y="-400" />
               <mxPoint x="1453" y="-370" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bPHa-K_MA9cfAMM-uTkG-23" value="录入&lt;br&gt;（打字/OCR）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1412.5" y="-350" width="80" height="60" as="geometry" />
+          <mxGeometry x="1568" y="-360" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bPHa-K_MA9cfAMM-uTkG-24" value="录入&lt;div&gt;质检&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1528" y="-80" width="50.5" height="60" as="geometry" />
