@@ -348,7 +348,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BDxn3_-F_jnJA8M1lbv9" name="HCP-workflow">
-    <mxGraphModel dx="3318" dy="2882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2363" dy="2665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1773,6 +1773,15 @@
             <mxPoint x="585" y="830" as="sourcePoint" />
             <mxPoint x="505" y="830" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2HVdqBiRxddNkF6EFSCZ-21" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;业务&lt;div&gt;领导&lt;/div&gt;" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-940" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2HVdqBiRxddNkF6EFSCZ-22" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;客户&lt;div&gt;代表&lt;/div&gt;" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="-940" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2HVdqBiRxddNkF6EFSCZ-23" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;运营&lt;div&gt;经理&lt;/div&gt;" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-840" width="40" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
