@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.9" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.5" pages="8">
   <diagram name="ObjectChain" id="yJQVINWv8Zk17fUq3llq">
     <mxGraphModel dx="5247" dy="4609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1947,7 +1947,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0CvuQ6sIM24D2RZzGndl" name="DTPB">
-    <mxGraphModel dx="2477" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2811" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2551,7 +2551,7 @@
         <mxCell id="1aq3QYewRHBoQ0efhVTF-69" value="兼容性（CO）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1040" y="920" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1aq3QYewRHBoQ0efhVTF-70" value="感知风险（PR）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="1aq3QYewRHBoQ0efhVTF-70" value="感知风险（PR）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFC494;" parent="1" vertex="1">
           <mxGeometry x="-1040" y="980" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1aq3QYewRHBoQ0efhVTF-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1aq3QYewRHBoQ0efhVTF-82" target="1aq3QYewRHBoQ0efhVTF-94" edge="1">
@@ -2926,24 +2926,24 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-1" value="理赔软件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-1" value="理赔软件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1480" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-2" value="运营人员&lt;div&gt;(录入岗)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-2" value="运营人员&lt;div&gt;(录入岗)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-1610" y="1340" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fvn_mPKIzazpfKBHvWuK-2" target="Fvn_mPKIzazpfKBHvWuK-1">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Fvn_mPKIzazpfKBHvWuK-2" target="Fvn_mPKIzazpfKBHvWuK-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1370" y="1490" as="sourcePoint" />
             <mxPoint x="-1320" y="1440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-4" value="报案信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fvn_mPKIzazpfKBHvWuK-3">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-4" value="报案信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Fvn_mPKIzazpfKBHvWuK-3" vertex="1" connectable="0">
           <mxGeometry x="-0.0183" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fvn_mPKIzazpfKBHvWuK-9">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Fvn_mPKIzazpfKBHvWuK-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1700" y="1360" as="sourcePoint" />
             <mxPoint x="-1600" y="1440" as="targetPoint" />
@@ -2952,60 +2952,60 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-10" value="用户的报案材料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fvn_mPKIzazpfKBHvWuK-5">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-10" value="用户的报案材料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Fvn_mPKIzazpfKBHvWuK-5" vertex="1" connectable="0">
           <mxGeometry x="-0.2052" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-6" value="运营人员&lt;div&gt;(规则配置岗)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-6" value="运营人员&lt;div&gt;(规则配置岗)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-1430" y="1200" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Fvn_mPKIzazpfKBHvWuK-1">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="Fvn_mPKIzazpfKBHvWuK-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1420" y="1300" as="sourcePoint" />
             <mxPoint x="-1450" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-17" value="理算规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fvn_mPKIzazpfKBHvWuK-7">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-17" value="理算规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Fvn_mPKIzazpfKBHvWuK-7" vertex="1" connectable="0">
           <mxGeometry x="-0.1449" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-8" value="运营人员&lt;div&gt;(审核岗)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-8" value="运营人员&lt;div&gt;(审核岗)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-1255" y="1340" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-9" value="保险公司" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-9" value="保险公司" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1480" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fvn_mPKIzazpfKBHvWuK-1">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="Fvn_mPKIzazpfKBHvWuK-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1500" y="1370" as="sourcePoint" />
             <mxPoint x="-1260" y="1345" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-12" value="待审核案件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fvn_mPKIzazpfKBHvWuK-11">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-12" value="待审核案件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Fvn_mPKIzazpfKBHvWuK-11" vertex="1" connectable="0">
           <mxGeometry x="-0.0183" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="Fvn_mPKIzazpfKBHvWuK-1">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" target="Fvn_mPKIzazpfKBHvWuK-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1270" y="1375" as="sourcePoint" />
             <mxPoint x="-1450" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-14" value="审核结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fvn_mPKIzazpfKBHvWuK-13">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-14" value="审核结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Fvn_mPKIzazpfKBHvWuK-13" vertex="1" connectable="0">
           <mxGeometry x="-0.0135" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fvn_mPKIzazpfKBHvWuK-1" target="Fvn_mPKIzazpfKBHvWuK-9">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Fvn_mPKIzazpfKBHvWuK-1" target="Fvn_mPKIzazpfKBHvWuK-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1500" y="1370" as="sourcePoint" />
             <mxPoint x="-1450" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fvn_mPKIzazpfKBHvWuK-16" value="赔付结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+        <mxCell id="Fvn_mPKIzazpfKBHvWuK-16" value="赔付结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-1420" y="1420" as="geometry">
             <mxPoint x="-3" y="-5" as="offset" />
           </mxGeometry>
