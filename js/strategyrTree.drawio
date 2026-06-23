@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="29.3.0" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" version="29.3.4" pages="9">
   <diagram name="ObjectChain" id="yJQVINWv8Zk17fUq3llq">
     <mxGraphModel dx="5247" dy="4609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5255,6 +5255,95 @@
         </mxCell>
         <mxCell id="mPdQtrXj7CEQCdQFfoXK-37" value="对偶值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mPdQtrXj7CEQCdQFfoXK-34">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q5tiIN7VdMjh0PE9SwFd" name="stardew valley">
+    <mxGraphModel dx="788" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="玛妮父" vertex="1">
+          <mxGeometry height="80" width="80" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="玛妮" vertex="1">
+          <mxGeometry height="80" width="80" x="160" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="贾斯父/母" vertex="1">
+          <mxGeometry height="80" width="80" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="120" as="sourcePoint" />
+            <mxPoint x="200" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="玛妮母" vertex="1">
+          <mxGeometry height="80" width="80" x="240" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-8" edge="1" parent="1" source="YPkBF3W_VKYRSVwMCYj3-1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YPkBF3W_VKYRSVwMCYj3-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="310" as="sourcePoint" />
+            <mxPoint x="300" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="贾斯父/母&lt;div&gt;的配偶&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="480" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-10" edge="1" parent="1" source="YPkBF3W_VKYRSVwMCYj3-3" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YPkBF3W_VKYRSVwMCYj3-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="310" as="sourcePoint" />
+            <mxPoint x="300" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="贾斯" vertex="1">
+          <mxGeometry height="80" width="80" x="400" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="谢恩父/母" vertex="1">
+          <mxGeometry height="80" width="80" x="600" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="280" as="sourcePoint" />
+            <mxPoint x="720" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="谢恩父/母&lt;div&gt;的配偶&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="760" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-15" edge="1" parent="1" source="YPkBF3W_VKYRSVwMCYj3-12" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YPkBF3W_VKYRSVwMCYj3-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="310" as="sourcePoint" />
+            <mxPoint x="580" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="谢恩" vertex="1">
+          <mxGeometry height="80" width="80" x="680" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YPkBF3W_VKYRSVwMCYj3-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="200" />
+            </Array>
+            <mxPoint x="200" y="200" as="sourcePoint" />
+            <mxPoint x="560" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPkBF3W_VKYRSVwMCYj3-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YPkBF3W_VKYRSVwMCYj3-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="200" />
+            </Array>
+            <mxPoint x="200" y="200" as="sourcePoint" />
+            <mxPoint x="250" y="150" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
